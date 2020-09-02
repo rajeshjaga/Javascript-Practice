@@ -17,8 +17,3 @@ console.log(Var1)
 const var3 = "Constant";
 console.log(var3);
 
-//creating object
-const object = {
-    "key": "tis is a value"
-}
-console.log(object.key)
