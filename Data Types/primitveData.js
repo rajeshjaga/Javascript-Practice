@@ -16,3 +16,6 @@ console.log(typeof (string));
 
 var boolean = true;
 console.log(typeof (boolean))
+
+var symbol = Symbol("sym")
+console.log(symbol.toString())
