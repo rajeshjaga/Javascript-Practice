@@ -13,3 +13,15 @@ const thisFuncIsConstants = function (number) {
 }
 let functionString = thisFuncIsConstants(10);
 console.log(functionString);
+
+//function scoping
+const a = 10;
+var b = 20;
+
+function addBothAAndB() {
+
+    b = 50;
+    return a + b;
+}
+console.log(addBothAAndB())
+console.log(a + b)
