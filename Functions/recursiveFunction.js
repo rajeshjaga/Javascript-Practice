@@ -26,6 +26,6 @@ function simpleCalculation(i) {
     simpleCalculation(i - 1)
     console.log("calculation ends @: " + i)
 }
-simpleCalculation(10)
+simpleCalculation(3)
 
 
