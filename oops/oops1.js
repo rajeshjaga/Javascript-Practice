@@ -9,4 +9,4 @@ const person = {
     }
 
 }
-console.log(typeof person.bio)
+console.log(typeof person)
