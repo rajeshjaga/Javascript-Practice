@@ -12,7 +12,7 @@ class person {
         this.age = age,
             this.gender = gender,
             this.interests = interests,
-            this.bio = function () { return `${this.name} is ${this.age} old. This ${this.gender} likes to ${this.interests}` }
+            this.bio  () { return `${this.name} is ${this.age} old. This ${this.gender} likes to ${this.interests}` }
 
     }
 }
